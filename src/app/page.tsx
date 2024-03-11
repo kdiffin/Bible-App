@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
     <div>
-      <div className="flex gap-x-7">
-        <div className="font-bold mr-auto">BibleApp</div>
-        <Button variant="outline">read</Button>
-        <div>about</div>
-        <div>contact</div>
-        <Button variant="outline" className="ml-auto">
-          read
+      <div className="flex gap-x-8 justify-items-center items-center pt-2">
+        <div className="font-bold mr-auto ml-8 text-lg">BibleApp</div>
+        <Input placeholder="Search..." className="max-w-[600px]" />
+
+        <Button variant="outline" className="ml-auto ">
+          Log In
+        </Button>
+        <Button variant="outline" className="mr-8">
+          Sign In
         </Button>
       </div>
     </div>
