@@ -21,7 +21,7 @@ function Hero() {
           <span className="text-foreground-primary">Everyone.</span>
         </h1>
         <p className="text-lg mt-4 text-slate-600 max-w-xl">
-          Astroship is a starter template for startups, marketing websites &
+          Astroship is a starter template for startups, marketuuing websites &
           landing pages.
           <wbr /> Built with Astro.build and TailwindCSS. You can quickly create
           any website with this starter.
